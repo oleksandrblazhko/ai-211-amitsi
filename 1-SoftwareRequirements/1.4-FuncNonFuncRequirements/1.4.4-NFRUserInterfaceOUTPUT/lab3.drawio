@@ -1,0 +1,66 @@
+<mxfile host="app.diagrams.net" modified="2023-10-01T13:54:46.850Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="uh8G6Rj8GE-q8htk5mlO" version="22.0.0" type="device">
+  <diagram name="Страница — 1" id="vtHNo-naL0Yi_Pb2QlY-">
+    <mxGraphModel dx="1615" dy="892" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WDURT74D_-JEYyqDqXwZ-14" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;strokeColor=#666666;strokeColor2=#008cff;strokeColor3=#c4c4c4;mainText=,;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="550" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="WDURT74D_-JEYyqDqXwZ-15" value="Page 1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;whiteSpace=wrap;" vertex="1" parent="WDURT74D_-JEYyqDqXwZ-14">
+          <mxGeometry x="60" y="12" width="110" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WDURT74D_-JEYyqDqXwZ-16" value="https://www.draw.io" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="WDURT74D_-JEYyqDqXwZ-14">
+          <mxGeometry x="130" y="60" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WDURT74D_-JEYyqDqXwZ-21" value="Спортивна подія 1" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WDURT74D_-JEYyqDqXwZ-14">
+          <mxGeometry x="40" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WDURT74D_-JEYyqDqXwZ-22" value="Спортивна подія 2" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WDURT74D_-JEYyqDqXwZ-14">
+          <mxGeometry x="215" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WDURT74D_-JEYyqDqXwZ-23" value="Спортивна подія 3" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WDURT74D_-JEYyqDqXwZ-14">
+          <mxGeometry x="374" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WDURT74D_-JEYyqDqXwZ-24" value="Спортивна подія 4" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WDURT74D_-JEYyqDqXwZ-14">
+          <mxGeometry x="40" y="250" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WDURT74D_-JEYyqDqXwZ-25" value="Спортивна подія 5" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WDURT74D_-JEYyqDqXwZ-14">
+          <mxGeometry x="215" y="250" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WDURT74D_-JEYyqDqXwZ-26" value="Спортивна подія 6" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WDURT74D_-JEYyqDqXwZ-14">
+          <mxGeometry x="380" y="240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WDURT74D_-JEYyqDqXwZ-17" value="УВАГА СОПРТИВНА&lt;br&gt;ПОДІЯ №10&amp;nbsp;&lt;br&gt;ЗАРАЗ ONLINE" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.rrect;rSize=0;strokeColor=#666666;fontColor=#666666;fontSize=17;verticalAlign=top;whiteSpace=wrap;fillColor=#ffffff;spacingTop=32;" vertex="1" parent="WDURT74D_-JEYyqDqXwZ-14">
+          <mxGeometry x="194" y="12" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="WDURT74D_-JEYyqDqXwZ-18" value="Message Title" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.rrect;rSize=0;fontSize=17;fontColor=#666666;strokeColor=#666666;align=left;spacingLeft=8;fillColor=#ffffff;resizeWidth=1;whiteSpace=wrap;" vertex="1" parent="WDURT74D_-JEYyqDqXwZ-17">
+          <mxGeometry width="180" height="30" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WDURT74D_-JEYyqDqXwZ-19" value="" style="shape=ellipse;strokeColor=#008cff;resizable=0;fillColor=none;html=1;" vertex="1" parent="WDURT74D_-JEYyqDqXwZ-18">
+          <mxGeometry x="1" y="0.5" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-25" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WDURT74D_-JEYyqDqXwZ-27" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;strokeColor=#666666;strokeColor2=#008cff;strokeColor3=#c4c4c4;mainText=,;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="100" width="550" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="WDURT74D_-JEYyqDqXwZ-28" value="Page 1" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;whiteSpace=wrap;" vertex="1" parent="WDURT74D_-JEYyqDqXwZ-27">
+          <mxGeometry x="60" y="12" width="110" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WDURT74D_-JEYyqDqXwZ-29" value="https://www.draw.io" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" vertex="1" parent="WDURT74D_-JEYyqDqXwZ-27">
+          <mxGeometry x="130" y="60" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WDURT74D_-JEYyqDqXwZ-13" value="ВІДЕО СПОРТИВНОЇ ПОДІЇ" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.containers.videoPlayer;strokeColor=#666666;strokeColor2=#008cff;strokeColor3=#c4c4c4;textColor=#666666;fillColor2=#008cff;barHeight=30;barPos=20;" vertex="1" parent="WDURT74D_-JEYyqDqXwZ-27">
+          <mxGeometry x="117" y="140" width="300" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="WDURT74D_-JEYyqDqXwZ-37" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="WDURT74D_-JEYyqDqXwZ-23" target="WDURT74D_-JEYyqDqXwZ-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="340" as="sourcePoint" />
+            <mxPoint x="630" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
