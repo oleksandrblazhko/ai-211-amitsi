@@ -1,0 +1,29 @@
+@startuml
+
+title UML-діаграма розгортання ПП
+
+left to right direction
+
+skinparam componentStyle uml1
+
+node "<<Cмартфон>>" as sm {
+	node "<<OS Androidx>>" {
+		component [.apk]
+	}
+}
+
+interface TouchScreen
+
+TouchScreen -- sm
+
+node "<<Server 1>>" as serv1 {
+	node "<<Windows OS>>" {
+		node "<<Application Server Apache Tomcat>>" {
+		component [.jar]
+	}
+	}
+}
+
+sm -- serv1
+
+@enduml
