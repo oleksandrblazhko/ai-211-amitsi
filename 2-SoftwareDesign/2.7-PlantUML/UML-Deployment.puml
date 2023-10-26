@@ -16,14 +16,4 @@ interface TouchScreen
 
 TouchScreen -- sm
 
-node "<<Server 1>>" as serv1 {
-	node "<<Windows OS>>" {
-		node "<<Application Server Apache Tomcat>>" {
-		component [.jar]
-	}
-	}
-}
-
-sm -- serv1
-
 @enduml
