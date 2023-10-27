@@ -1,0 +1,19 @@
+@startuml
+
+title Activity Diagram
+
+start
+
+:User connects to broadcast to watch sport event;
+
+repeat
+  if (Connection is successful?) then (yes)
+    :Play video;
+    stop
+  else (no)
+    :Connection failed;
+  endif
+repeat while ()
+
+@enduml
+

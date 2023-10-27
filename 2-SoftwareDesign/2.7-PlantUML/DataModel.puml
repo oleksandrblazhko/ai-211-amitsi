@@ -1,0 +1,46 @@
+
+@startuml
+
+title Example of Relation Schema
+
+hide circle
+
+entity "User" as user {
+    (PK) user_id
+    --
+    name
+    surname
+    age
+}
+
+entity "userNotificationTable" as userNotificationTable {
+    (PK) userNotificationTableId
+    --
+    (FK) user_id
+    (FK) notification_id
+
+}
+
+
+entity "Notification" as Notification {
+    (PK) notification_id
+    --
+    (FK) sportEvent_id
+    messageText
+    timeToSportEvent
+}
+
+
+entity "sportEvent" as sportEvent {
+    (PK) sportEvent_id
+    --
+    broadcastTime
+}
+
+userNotificationTable --{ user
+userNotificationTable --{ Notification
+sportEvent --{ Notification
+
+
+
+@enduml

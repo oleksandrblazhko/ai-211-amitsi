@@ -1,0 +1,19 @@
+@startuml
+
+title Usecase for Lab7
+
+left to right direction
+
+actor Consumer
+
+rectangle Software   {
+
+    usecase (Order_Water)
+    usecase (Deliver_Water)
+    
+   :Consumer: -- (Order_Water)
+   (Order_Water) .> (Deliver_Water) : include
+  
+}
+
+@enduml
