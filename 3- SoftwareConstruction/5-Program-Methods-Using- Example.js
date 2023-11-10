@@ -1,4 +1,4 @@
 const user1 = new User(1, 'John', 'Doe', 25);
-const sportEvent1 = new SportEvent(101, '2023-11-09T18:00:00');
+const message = "Reminder: Your sports event is coming up!";
 
-user1.watchEvent(sportEvent1);
+user1.sendToUser(user2.userId, 'Hello, Bob!');
