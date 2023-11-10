@@ -39,10 +39,4 @@ class Notification {
     }
 }
 
-class UserNotification {
-    constructor(id, userID, notificationID) {
-        this.id = id;
-        this.userID = userID;
-        this.notificationID = notificationID;
-    }
-}
+
