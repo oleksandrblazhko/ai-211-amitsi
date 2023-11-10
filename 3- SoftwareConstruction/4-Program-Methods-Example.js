@@ -6,6 +6,17 @@ class User {
       messageText: messageText,
     };
 
+
+  if (userId < 1 || userId > 1000000000) {
+      console.error('Invalid userId. It must be in the range of 1 to 1000000000.');
+      return;
+    }
+
+    if (typeof messageText !== 'string' || messageText.length === 0) {
+      console.error('Invalid messageText. It must be a non-empty string.');
+      return;
+    }
+
     fetch('https://someapi/save-message', {
       method: 'POST',
       headers: {
