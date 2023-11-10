@@ -1,7 +1,29 @@
 class User {
-    watchEvent(sportEvent) {
-        console.log(`User ${this.userId} is now watching sport event ${sportEvent.sporteventId}`);
-        const videoPlayer = document.getElementById('videoPlayer');
-        videoPlayer.src = `https://example.com/broadcast/${eventId}.mp4`;
-        videoPlayer.play();
-    }
+    
+  sendToUser(userId, messageText) {
+    const postData = {
+      userId: this.userId,
+      messageText: messageText,
+    };
+
+    fetch('https://someapi/save-message', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(postData),
+    })
+      .then(response => {
+        if (!response.ok) {
+          throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        return response.json();
+      })
+      .then(data => {
+        console.log('Message sent successfully:', data);
+      })
+      .catch(error => {
+        console.error('Error sending message:', error);
+      });
+  }
+}
