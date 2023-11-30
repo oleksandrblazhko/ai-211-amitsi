@@ -15,7 +15,7 @@ docker run --name amitsy-postgres -p 5432:5432 -e POSTGRES_PASSWORD=1234 -w /scr
 ```
 
 Ця команда запустить контейнер PostgreSQL з такими параметрами\:
-  * --name horchynskyi-postgres: задає ім'я контейнера як "amitsy-postgres".
+  * --name amitsy-postgres: задає ім'я контейнера як "amitsy-postgres".
   * -p 5432:5432: прокидує порт 5432 з хоста на порт 5432 у контейнері.
   * -e POSTGRES_PASSWORD=1234: встановлює пароль для користувача "postgres".
   * -w /scripts: встановлює робочу директорію всередині контейнера як "/scripts".
