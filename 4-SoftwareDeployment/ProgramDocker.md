@@ -1,23 +1,13 @@
 # Налаштувати виконання розглянутої програми через Docker
 
-## Крок 1. Створення Dockerfile у проєкті
+## Крок 1. Завантаження образу Node
 
 ```
-FROM node:14
-WORKDIR /usr/src/app
-COPY package*.json ./
-RUN npm install
-COPY . .
-CMD ["node", "app.js"]
+docker pull node
 ```
 
-## Крок 2. Білдимо
+## Крок 2. Запускаємо програмний файл
 ```bash
-docker build -t nodeprj .
-```
-
-## Крок 3. Запускаємо
-```bash
-docker run nodeprj
+docker run -it --rm --name my-running-script -v "C:\Users\nmskorpo\Downloads\nodejsprj":/usr/src/app -w /usr/src/app node:19-bullseye node app.js
 ```
 
